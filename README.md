@@ -2,7 +2,6 @@
 
 A beginner Node.js and Express API that returns the current weather and a short daily forecast for a city. Weather data comes from the free [Open-Meteo](https://open-meteo.com/) service, so you do not need an API key.
 
-The step-by-step path from `npm start` through middleware, the router, the controller, and Open-Meteo is in [EXECUTION.md](EXECUTION.md).
 
 ## What you need
 
@@ -128,8 +127,6 @@ src/routes/healthRoutes.js        /health route
 src/services/weatherService.js    calls Open-Meteo
 src/utils/appError.js             error that carries a status code
 ```
-
-The full startup order and the path of one request are written out in [EXECUTION.md](EXECUTION.md).
 
 ## Try these on purpose
 
